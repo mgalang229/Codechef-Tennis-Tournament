@@ -4,7 +4,7 @@ using namespace std;
 void perform_test() {
 	int n;
 	cin >> n;
-	if(n % 2 == 0) { // the answer does not exist is n is even
+	if(n % 2 == 0) { // the answer does not exist if n is even
 		cout << "NO\n";
 		return;
 	}
